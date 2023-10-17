@@ -1,0 +1,82 @@
+{% include 'navbar2.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<style>
+
+    body{
+        background-color: black;
+    }
+    /* Style for the container divs */
+    .content-container {
+        display: flex;
+        /* Use Flexbox for layout */
+        align-items: center;
+        /* Vertically align content */
+    }
+
+    /* Style for the image */
+    .content-image {
+        flex: 1;
+        /* Takes up 50% of the container width */
+        padding: 20px;
+        /* Add spacing around the image */
+    }
+
+    /* Style for the text content */
+    .content-text {
+        flex: 2;
+        /* Takes up 50% of the container width */
+        padding: 10px;
+        /* Add spacing around the text */
+    }
+</style>
+
+<body>
+    <div class="content-container">
+        <div class="content-image">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-2711b8c8199df0cf12bd8da918033e77-lq" alt="COEP">
+        </div>
+        <div class="content-text">
+            <h2 style="color: floralwhite; font-family: 'Times New Roman', Times, serif">COEP TECH</h2>
+            <p style="color: floralwhite; font-family: 'Times New Roman', Times, serif; font-size: large;">COEP, or the College of Engineering Pune, is a prestigious technological university located in Pune,
+                India. Established in 1854, it holds the distinction of being one of the oldest engineering institutions
+                in Asia. The university has consistently upheld a rich legacy of academic excellence, producing
+                exceptional engineers and technocrats. With a sprawling and picturesque campus, COEP offers
+                undergraduate, postgraduate, and doctoral programs in various engineering disciplines, catering to the
+                diverse needs of its students.
+
+                <br>
+                <br>
+
+                COEP is renowned for its cutting-edge research, innovative projects, and high-quality education. The
+                institution prides itself on nurturing future leaders in technology and engineering by providing a
+                dynamic and intellectually stimulating environment. It fosters a culture of creativity, critical
+                thinking, and problem-solving, which prepares its graduates to face the complex challenges of the modern
+                world.
+
+                <br>
+                <br>
+
+                Moreover, COEP's commitment to technological advancements and its dedication to the betterment of
+                society have earned it a prominent place in the Indian education landscape. The university's
+                collaborations with industry leaders, research organizations, and academic institutions further enrich
+                the learning experience for its students. COEP Technological University continues to be a beacon of
+                knowledge and innovation, producing skilled professionals who contribute significantly to the
+                development of India and the world.</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+{% endblock content %}
